@@ -1,0 +1,53 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+}
+body{
+    background-position: center;
+    background: url('https://images.pexels.com/photos/2747446/pexels-photo-2747446.jpeg?cs=srgb&dl=pexels-wolfgang-2747446.jpg&fm=jpg');
+    background-size: cover;
+}
+.registration-form{
+    position: absolute;
+    width: 500px;
+    background-color:black ;
+    color: white;
+    margin: auto;
+    padding: 10px 0px 10px 0px ;
+    border-radius: 15px 15px 0px 0px;
+    left: 50%;
+    transform: translate( -50%);
+}
+.registration-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.registration-form input{
+    padding: 15px 10px;
+    width: 95%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+form{
+    padding: 10px;
+}
+.registration-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.registration-form button:hover{
+    color: red;
+}
+.registration-form p{
+    font-size: 25px;
+}

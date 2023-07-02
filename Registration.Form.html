@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)file:///C:/Users/hp/form.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="./Registration.Form_files/style.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registration Form</h1>
+        <form onsubmit="takevalue()" method="post" action="https://script.google.com/macros/s/AKfycbxld82JRYSknnUr-Z1NvA0Q_2QPpj3gopM6KrE5MRqTbV5Jm8rJj1NtItLzvnRprdvJKw/exec">
+            <p>Full Name</p>
+            <input type="text" name="name" id="name" placeholder="Full Name">
+            <p>Email</p>
+            <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+             <p>Contact No</p>
+            <input type="Contact" name="Contact no" id="phone" placeholder="73*****">
+            <p>Gender</p>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Other">Other</label>
+            <input type="radio" id="radio" name="Gender" value="Other">
+             <p>Year</p>
+            <label for="1st">1st</label>
+            <input type="radio" id="radio" name="Year" value="1st">
+            <label for="2nd">2nd</label>
+            <input type="radio" id="radio" name="Year" value="2nd">
+            <p>Section</p>
+            <label for="cse1">cse1</label>
+            <input type="radio" id="radio" name="Section" value="cse 1">
+            <label for="cse2">cse2</label>
+            <input type="radio" id="radio" name="Section" value="cse 2">
+            <p>Mode of Payment</p>
+            <label for="online">online</label>
+            <input type="radio" id="radio" name="Mode of Payment" value="online">
+            <label for="Cash">Cash</label>
+            <input type="radio" id="radio" name="Mode of Payment" value="Cash">
+            <p>QR Code</p>
+            <br>
+            <img src="./Registration.Form_files/IMG-20230404-WA0000.jpg" alt="as1554294-1@okaxis" height="200px" width="200px">
+            <br>
+            <p>Transaction Id</p>
+            <input type="text" id="TransactionId">
+            <button type="submit">Submit</button> 
+        </form>
+
+    </div>
+    <script>
+        function takevalue(){
+            var name = document.getElementById
+            ("name").value;
+
+            var email = document.getElementById
+            ("email").value;
+
+            var phone = document.getElementById
+            ("phone").value;
+
+            var Gender = document.getElementById
+            ("Male||Female").value;
+
+            var Year = document.getElementById
+            ("1st||2nd").value;
+
+            var Section = document.getElementById
+            ("cse1||cse2").value;
+
+            var ModeofPayment = document.getElementById
+            ("online||cash").value;
+
+            var TransactionId = document.getElementById
+            ("TransactionId").value;
+
+            document.write("Your Name is = " + name);
+            document.write("Your email is = " + email);
+            document.write("Your phone is = " + phone);
+            document.write("Your gender is = " + gender);
+            document.write("Your year is = " + year);
+            document.write("Your section is = " + section);
+            document.write("Your modeofpayment is = " + modeofpayment);
+            document.write("Your TransactionId is = " + TransactionId;
+        }
+    </script>
+
+</body></html>
